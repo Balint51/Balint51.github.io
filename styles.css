@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.canvas-container {
+    margin: 20px auto;
+    position: relative;
+    align-content: center;
+    text-align:center;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline: 2px solid black;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#edges-label {
+    margin-top: 20px;
+}
+
+#language-toggle {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index: 1; /* Ensure the language toggle is above other elements */
+}
+
+#language-toggle img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+#mode-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Add margin to separate it from the other buttons */
+}
